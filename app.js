@@ -45,7 +45,7 @@ function soundLoad(soundJSON) {
   });
 }
 
-var soundSection = document.querySelector('section');
+var box = document.getElementById('box');
 
 window.onload = function() {
 
@@ -54,11 +54,11 @@ window.onload = function() {
     soundLoad(sound).then(function(arrayResponse) {
 
       var soundDiv = document.createElement('div');
-      var soundURL = window.URL.createObjectURL(arrayResponse[0]);
-
       soundDiv.innerText = arrayResponse[1].name;
-      soundDiv.setAttribute("onclick", "new Audio('" + soundURL + "').play();");
-      soundSection.appendChild(soundDiv);
+      soundDiv.classList.add('sound');
+      soundDiv.setAttribute("onclick", "new Audio('" + window.URL.createObjectURL(arrayResponse[0]) + "').play();");
+      soundDiv.style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
+      box.appendChild(soundDiv);
 
     }, function(Error) {
       console.log(Error);

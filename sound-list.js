@@ -14,7 +14,7 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/SayWhat.mp3',
   },
   {
-    'name'  : 'Enemenemenee!',
+    'name'  : 'Enemene!',
     'url': 'sounds/Enemenemene.mp3',
   },
 ]};
