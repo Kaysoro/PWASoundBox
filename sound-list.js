@@ -42,6 +42,10 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/PasFaux.mp3',
   },
   {
+    'name'  : 'Pincer',
+    'url': 'sounds/Pincer.mp3',
+  },
+  {
     'name'  : 'Niska',
     'url': 'sounds/Pouloulou.mp3',
   },
@@ -49,6 +53,10 @@ var Sounds = { 'sounds' : [
     'name'  : 'Souffrir',
     'url': 'sounds/Souffrir ok.mp3',
   },
+  {
+    'name'  : 'Racaille',
+    'url': 'sounds/Racaille.mp3',
+  }, 
   {
     'name'  : 'Rolling',
     'url': 'sounds/TheySeeMeRolling.mp3',
@@ -62,7 +70,15 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/SayWhat.mp3',
   },
   {
+    'name'  : 'Skraa!',
+    'url': 'sounds/Skraa.mp3',
+  },
+  {
     'name'  : 'What?!',
     'url': 'sounds/What.mp3',
+  }, 
+  {
+    'name'  : 'Yee',
+    'url': 'sounds/Yee.mp3',
   }, 
 ]};
