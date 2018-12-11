@@ -78,11 +78,19 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/Skraa.mp3',
   },
   {
+    'name'  : 'Viens-là!',
+    'url': 'sounds/ViensLa.mp3',
+  }, 
+  {
     'name'  : 'What?!',
     'url': 'sounds/What.mp3',
   }, 
   {
     'name'  : 'Yee',
     'url': 'sounds/Yee.mp3',
+  }, 
+  {
+    'name'  : '?!??',
+    'url': 'sounds/GitanCri.mp3',
   }, 
 ]};
