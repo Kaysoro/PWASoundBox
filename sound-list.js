@@ -19,7 +19,7 @@ var Sounds = { 'sounds' : [
   }, 
   {
     'name'  : 'Cerveau',
-    'url': 'sounds/Cerveau.mp3',
+    'url': 'sounds/DemiCerveau.mp3',
   }, 
   {
     'name'  : 'Enemene!',
