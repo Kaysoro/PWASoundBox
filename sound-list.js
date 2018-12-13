@@ -66,6 +66,10 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/TheySeeMeRolling.mp3',
   },
   {
+    'name'  : 'Santa',
+    'url': 'sounds/Santa.mp3',
+  },
+  {
     'name'  : 'Say!',
     'url': 'sounds/Say!.mp3',
   },
