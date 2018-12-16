@@ -22,6 +22,10 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/Daccord.mp3',
   }, 
   {
+    'name'  : 'Dakorrr',
+    'url': 'sounds/Dakorr.mp3',
+  }, 
+  {
     'name'  : 'Cerveau',
     'url': 'sounds/DemiCerveau.mp3',
   }, 
@@ -57,6 +61,10 @@ var Sounds = { 'sounds' : [
     'name'  : 'Pincer',
     'url': 'sounds/Pincer.mp3',
   },
+  {
+    'name'  : 'Porrrc',
+    'url': 'sounds/Porrc.mp3',
+  }, 
   {
     'name'  : 'Niska',
     'url': 'sounds/Pouloulou.mp3',
