@@ -46,12 +46,60 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/HelloDarkness.mp3',
   }, 
   {
+    'name'  : 'Jerome',
+    'url': 'sounds/Jerome.mp3',
+  }, 
+  {
+    'name'  : 'Gaetan',
+    'url': 'sounds/Gaetan.mp3',
+  }, 
+  {
+    'name'  : 'Marco',
+    'url': 'sounds/Marco.mp3',
+  }, 
+  {
+    'name'  : 'Aioli',
+    'url': 'sounds/Aioli.mp3',
+  }, 
+  {
+    'name'  : 'Belvedere',
+    'url': 'sounds/Belvedere.mp3',
+  }, 
+  {
+    'name'  : 'Cagole',
+    'url': 'sounds/Cagole.mp3',
+  }, 
+  {
+    'name'  : 'Lavandou',
+    'url': 'sounds/Lavandou.mp3',
+  }, 
+  {
+    'name'  : 'Pitchoune',
+    'url': 'sounds/Pitchoune.mp3',
+  }, 
+  {
+    'name'  : 'Ponton',
+    'url': 'sounds/Ponton.mp3',
+  }, 
+  {
+    'name'  : 'Guarrigue',
+    'url': 'sounds/Guarrigue.mp3',
+  }, 
+  {
+    'name'  : 'Decede',
+    'url': 'sounds/Decede.mp3',
+  }, 
+  {
     'name'  : 'Gravina',
     'url': 'sounds/Gravina.mp3',
   },
   {
     'name'  : 'IAMTHEONE',
     'url': 'sounds/IAmTheOne.mp3',
+  },
+  {
+    'name'  : 'Parmesan',
+    'url': 'sounds/Parmesan.mp3',
   },
   {
     'name'  : 'Pas Faux',
@@ -97,6 +145,10 @@ var Sounds = { 'sounds' : [
     'name'  : 'Skraa!',
     'url': 'sounds/Skraa.mp3',
   },
+  {
+    'name'  : 'Vasistas',
+    'url': 'sounds/Vasistas.mp3',
+  }, 
   {
     'name'  : 'Viens-là!',
     'url': 'sounds/ViensLa.mp3',
