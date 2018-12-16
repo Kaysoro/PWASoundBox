@@ -147,6 +147,21 @@ var Sounds = { 'sounds' : [
     'theme': 'kassos',
   },
   {
+    'name'  : 'Teton',
+    'url': 'sounds/Teton.mp3',
+    'theme': 'kassos',
+  },
+  {
+    'name'  : 'Piege',
+    'url': 'sounds/Piege.mp3',
+    'theme': 'kassos',
+  },
+  {
+    'name'  : 'Patron',
+    'url': 'sounds/Patron.mp3',
+    'theme': 'kassos',
+  },
+  {
     'name'  : 'Pas Faux',
     'url': 'sounds/PasFaux.mp3',
     'theme': 'reaction',
