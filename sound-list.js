@@ -98,6 +98,10 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/Failed.mp3',
   }, 
   {
+    'name'  : 'Evil Morty',
+    'url': 'sounds/Evil Morty.mp3',
+  }, 
+  {
     'name'  : 'Crab',
     'url': 'sounds/Crab.mp3',
   },
