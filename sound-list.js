@@ -14,6 +14,10 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/Chalet.mp3',
   }, 
   {
+    'name'  : 'Chichovite',
+    'url': 'sounds/Chichovite.mp3',
+  }, 
+  {
     'name'  : 'Daccord',
     'url': 'sounds/Daccord.mp3',
   }, 
@@ -28,6 +32,10 @@ var Sounds = { 'sounds' : [
   {
     'name'  : 'Erotic',
     'url': 'sounds/EroticMoment.mp3',
+  }, 
+  {
+    'name'  : 'Fatty',
+    'url': 'sounds/Fatty.mp3',
   }, 
   {
     'name'  : 'Feels Alone',
