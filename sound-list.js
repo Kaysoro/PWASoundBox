@@ -90,6 +90,14 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/Decede.mp3',
   }, 
   {
+    'name'  : 'Success',
+    'url': 'sounds/Success.mp3',
+  }, 
+  {
+    'name'  : 'Failed',
+    'url': 'sounds/Failed.mp3',
+  }, 
+  {
     'name'  : 'Gravina',
     'url': 'sounds/Gravina.mp3',
   },
