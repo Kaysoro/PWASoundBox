@@ -57,7 +57,10 @@ window.onload = function() {
     }, function(Error) {
       console.log(Error);
     }).then(function(){
-      if (soundBox.length === Sounds.sounds.length)
+      if (soundBox.length === Sounds.sounds.length){
+        soundBox.sort(function(sound1, sound2){
+          return sound1[1].name.localeCompare(sound2[1].name);
+        });
         soundBox.forEach(function(sound){
           var soundDiv = document.createElement('div');
             soundDiv.innerText = sound[1].name;
@@ -66,6 +69,7 @@ window.onload = function() {
             soundDiv.style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
             box.appendChild(soundDiv);
         });
+      }
     });
   });
 };
