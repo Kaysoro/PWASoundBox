@@ -50,18 +50,22 @@ var box = document.getElementById('box');
 window.onload = function() {
 
   // load each set of image, alt text, name and caption
+  var soundBox = [];
   Sounds.sounds.forEach(function(sound) {
     soundLoad(sound).then(function(arrayResponse) {
-
-      var soundDiv = document.createElement('div');
-      soundDiv.innerText = arrayResponse[1].name;
-      soundDiv.classList.add('sound');
-      soundDiv.setAttribute("onclick", "new Audio('" + window.URL.createObjectURL(arrayResponse[0]) + "').play();");
-      soundDiv.style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
-      box.appendChild(soundDiv);
-
+      soundBox.push(arrayResponse);
     }, function(Error) {
       console.log(Error);
+    }).then(function(){
+      if (soundBox.length === Sounds.sounds.length)
+        soundBox.forEach(function(sound){
+          var soundDiv = document.createElement('div');
+            soundDiv.innerText = sound[1].name;
+            soundDiv.classList.add('sound');
+            soundDiv.setAttribute("onclick", "new Audio('" + window.URL.createObjectURL(sound[0]) + "').play();");
+            soundDiv.style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
+            box.appendChild(soundDiv);
+        });
     });
   });
 };
