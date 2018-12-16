@@ -59,7 +59,8 @@ window.onload = function() {
     }).then(function(){
       if (soundBox.length === Sounds.sounds.length){
         soundBox.sort(function(sound1, sound2){
-          return sound1[1].name.localeCompare(sound2[1].name);
+          var theme = sound1[1].theme.localeCompare(sound2[1].theme)
+          return theme === 0 ? sound1[1].name.localeCompare(sound2[1].name) : theme;
         });
         soundBox.forEach(function(sound){
           var soundDiv = document.createElement('div');
