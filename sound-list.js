@@ -7,7 +7,7 @@ var Sounds = { 'sounds' : [
     'theme': 'reaction',
   }, 
   {
-    'name'  : 'BaDumTss',
+    'name'  : 'Drum',
     'url': 'sounds/BaDumTss.mp3',
     'theme': 'reaction',
   }, 
@@ -29,7 +29,7 @@ var Sounds = { 'sounds' : [
   {
     'name'  : 'Dakorrr',
     'url': 'sounds/Dakorr.mp3',
-    'theme': 'el pueblo',
+    'theme': 'el-pueblo',
   }, 
   {
     'name'  : 'Cerveau',
@@ -39,7 +39,7 @@ var Sounds = { 'sounds' : [
   {
     'name'  : 'Enemene!',
     'url': 'sounds/Enemenemene.mp3',
-    'theme': 'dread',
+    'theme': 'drunk',
   }, 
   {
     'name'  : 'Erotic',
@@ -52,7 +52,7 @@ var Sounds = { 'sounds' : [
     'theme': 'rave',
   }, 
   {
-    'name'  : 'Feels Alone',
+    'name'  : 'Alone',
     'url': 'sounds/HelloDarkness.mp3',
     'theme': 'reaction',
   }, 
@@ -114,12 +114,12 @@ var Sounds = { 'sounds' : [
   {
     'name'  : 'Success',
     'url': 'sounds/Success.mp3',
-    'theme': 'reaction palmashow',
+    'theme': 'reaction-palmashow',
   }, 
   {
     'name'  : 'Failed',
     'url': 'sounds/Failed.mp3',
-    'theme': 'reaction palmashow',
+    'theme': 'reaction-palmashow',
   }, 
   {
     'name'  : 'Evil Morty',
@@ -137,7 +137,7 @@ var Sounds = { 'sounds' : [
     'theme': 'reaction',
   },
   {
-    'name'  : 'IAMTHEONE',
+    'name'  : 'I AM THE',
     'url': 'sounds/IAmTheOne.mp3',
     'theme': 'rap',
   },
@@ -159,7 +159,7 @@ var Sounds = { 'sounds' : [
   {
     'name'  : 'Porrrc',
     'url': 'sounds/Porrc.mp3',
-    'theme': 'el pueblo',
+    'theme': 'el-pueblo',
   }, 
   {
     'name'  : 'Niska',
@@ -189,12 +189,12 @@ var Sounds = { 'sounds' : [
   {
     'name'  : 'Say!',
     'url': 'sounds/Say!.mp3',
-    'theme': 'dread',
+    'theme': 'drunk',
   },
   {
     'name'  : 'Say What!',
     'url': 'sounds/SayWhat.mp3',
-    'theme': 'dread',
+    'theme': 'drunk',
   },
   {
     'name'  : 'Skraa!',
@@ -214,7 +214,7 @@ var Sounds = { 'sounds' : [
   {
     'name'  : 'What?!',
     'url': 'sounds/What.mp3',
-    'theme': 'dread',
+    'theme': 'drunk',
   }, 
   {
     'name'  : 'Yee',

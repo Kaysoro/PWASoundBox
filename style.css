@@ -24,5 +24,89 @@ html {
   font-weight: bold;
   font-size: 2em;
   text-align: center;
+  text-shadow: 1px 1px 0 #000,
+  -1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000,
+  0px 1px 0 #000,
+  0px -1px 0 #000,
+  -1px 0px 0 #000,
+  1px 0px 0 #000,
+  2px 2px 0 #000,
+  -2px 2px 0 #000,
+  2px -2px 0 #000,
+  -2px -2px 0 #000,
+  0px 2px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 0px 0 #000,
+  1px 2px 0 #000,
+  -1px 2px 0 #000,
+  1px -2px 0 #000,
+  -1px -2px 0 #000,
+  2px 1px 0 #000,
+  -2px 1px 0 #000,
+  2px -1px 0 #000,
+  -2px -1px 0 #000;
+  border: 5px solid black;
   border-radius: 10px;
+}
+
+.drunk {
+  background-image: url("images/drunk.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.el-pueblo {
+  background-image: url("images/el-pueblo.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.game{ 
+  background-image: url("images/game.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.gitan{
+  background-image: url("images/gitan.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.kassos{ 
+  background-image: url("images/kassos.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.palmashow{ 
+  background-image: url("images/palmashow.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.rave{ 
+  background-image: url("images/rave.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.reaction{ 
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.reaction-palmashow{ 
+  background-image: url("images/palmashow.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.rap{ 
+  background-image: url("images/rap.png");
+  background-repeat: no-repeat;
+  background-position: center; 
 }

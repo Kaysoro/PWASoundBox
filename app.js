@@ -66,6 +66,7 @@ window.onload = function() {
           var soundDiv = document.createElement('div');
             soundDiv.innerText = sound[1].name;
             soundDiv.classList.add('sound');
+            soundDiv.classList.add(sound[1].theme);
             soundDiv.setAttribute("onclick", "new Audio('" + window.URL.createObjectURL(sound[0]) + "').play();");
             soundDiv.style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
             box.appendChild(soundDiv);
