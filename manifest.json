@@ -4,6 +4,9 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
+  "related_applications": [{
+    "platform": "web"
+  }],
   "start_url": ".",
   "icons": [
     {
