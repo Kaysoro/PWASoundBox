@@ -22,7 +22,7 @@ html {
   line-height: 150px;
   color: white;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
   text-shadow: 1px 1px 0 #000,
   -1px 1px 0 #000,
@@ -107,6 +107,12 @@ html {
 
 .rap{ 
   background-image: url("images/rap.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.subway{ 
+  background-image: url("images/subway.png");
   background-repeat: no-repeat;
   background-position: center; 
 }
