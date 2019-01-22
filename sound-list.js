@@ -241,4 +241,9 @@ var Sounds = { 'sounds' : [
     'url': 'sounds/GitanCri.mp3',
     'theme': 'gitan',
   }, 
+  {
+    'name'  : 'Subway2',
+    'url': 'sounds/subway2.mp3',
+    'theme': 'subway',
+  }, 
 ]};
